@@ -74,3 +74,10 @@
 ## Install [OpenAI Gym](https://github.com/openai/gym)
     $ sudo pip3 install gym
     
+## Install [Dlib](https://github.com/davisking/dlib)
+    $ sudo apt-get install cmake
+    $ sudo apt-get install libboost-all-dev
+    $ sudo python3 setup.py install --yes USE_AVX_INSTRUCTIONS
+    
+## Install Additional Python3 Packages
+    $ sudo pip3 install scipy sklearn pandas matplotlib scikit-image
