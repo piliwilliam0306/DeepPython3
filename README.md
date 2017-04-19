@@ -77,7 +77,9 @@
 ## Install [Dlib](https://github.com/davisking/dlib)
     $ sudo apt-get install cmake
     $ sudo apt-get install libboost-all-dev
+    $ git clone https://github.com/davisking/dlib.git
+    $ cd dlib
     $ sudo python3 setup.py install --yes USE_AVX_INSTRUCTIONS
     
 ## Install Additional Python3 Packages
-    $ sudo pip3 install scipy sklearn pandas matplotlib scikit-image
+    $ sudo pip3 install scipy sklearn pandas matplotlib scikit-image pillow
