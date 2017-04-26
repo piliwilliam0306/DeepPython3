@@ -82,4 +82,4 @@
     $ sudo python3 setup.py install --yes USE_AVX_INSTRUCTIONS
     
 ## Install Additional Python3 Packages
-    $ sudo pip3 install scipy sklearn pandas matplotlib scikit-image pillow
+    $ sudo pip3 install scipy sklearn pandas matplotlib scikit-image pillow flask-socketio eventlet
