@@ -1,9 +1,12 @@
 # Setting up Deep Learning Machine with Python3
 
-## Install Nvidia Driver
-    $ sudo add-apt-repository ppa:graphics-drivers/ppa
+## Install [Cuda 8.0](https://developer.nvidia.com/cuda-downloads)
+    $ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
     $ sudo apt-get update
-    $ sudo apt-get install nvidia-375
+    $ sudo apt-get install cuda
+    $ echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
+    $ echo 'export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+    $ source ~/.bashrc
 
 ## Check Driver Installation
     $ nvidia-smi
@@ -24,15 +27,7 @@
     |    0      2964    G   /usr/lib/xorg/Xorg                             293MiB |
     |    0      3796    G   compiz                                         116MiB |
     |    0      4342    G   /usr/lib/firefox/firefox                         2MiB |
-    +-----------------------------------------------------------------------------+    
-    
-## Install [Cuda 8.0](https://developer.nvidia.com/cuda-downloads)
-    $ sudo dpkg -i cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb
-    $ sudo apt-get update
-    $ sudo apt-get install cuda
-    $ echo 'export PATH=/usr/local/cuda/bin:$PATH' >> ~/.bashrc
-    $ echo 'export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
-    $ source ~/.bashrc
+    +-----------------------------------------------------------------------------+ 
 
 ## Check Cuda Installation
     $ nvcc -V
@@ -61,8 +56,8 @@
     I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
     I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
 
-## Install [Keras 2.0](https://keras.io/#installation)
-    $ sudo pip3 install keras
+## Install [Keras 1.2.2](https://keras.io/#installation)
+    $ sudo pip3 install keras==1.2.2
     
 ## Check Keras installation
     >>> import keras
