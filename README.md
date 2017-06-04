@@ -83,3 +83,7 @@
 [computational statistics in python](http://people.duke.edu/~ccc14/sta-663/usingnumpysolutions.html)
 
 [scipy-lectures](http://www.scipy-lectures.org/intro/numpy/advanced_operations.html)
+
+[mathematical expressions](https://matplotlib.org/users/mathtext.html)
+
+[jupyter notebook](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html)
