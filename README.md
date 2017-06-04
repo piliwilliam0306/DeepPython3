@@ -79,3 +79,7 @@
 ## Install Additional Python3 Packages
     $ sudo pip3 install scipy sklearn pandas matplotlib scikit-image pillow flask-socketio eventlet jupyter h5py moviepy
 
+## Scipy Tutorials
+[computational statistics in python](http://people.duke.edu/~ccc14/sta-663/usingnumpysolutions.html)
+
+[scipy-lectures](http://www.scipy-lectures.org/intro/numpy/advanced_operations.html)
