@@ -87,3 +87,5 @@
 [mathematical expressions](https://matplotlib.org/users/mathtext.html)
 
 [jupyter notebook](http://jupyter-notebook.readthedocs.io/en/latest/examples/Notebook/Working%20With%20Markdown%20Cells.html)
+
+[Visualizing TensorFlow Graphs in Jupyter Notebooks](https://blog.jakuba.net/2017/05/30/tensorflow-visualization.html)
